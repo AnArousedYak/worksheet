@@ -10,9 +10,7 @@
   --color-accent-dark: #c03524;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 html, body {
   margin: 0;
@@ -24,9 +22,6 @@ html, body {
 button, input, textarea, select {
   color: inherit;
   font: inherit;
-  background: none;
-  border: none;
-  outline: none;
 }
 
 a {
