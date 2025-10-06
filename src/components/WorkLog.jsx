@@ -1,64 +1,50 @@
+import '../styling/WorkLog.css'
+
 export default function DailyWorkLog() {
     return (
         <form>
             <h2>Daily Work Log</h2>
     
             <label>
-            Employee Name:
+                Employee Name:
             <input type="text" name="employeeName" />
             </label>
     
             <label>
-            Date:
+                Date:
             <input type="date" name="date" />
             </label>
     
             <label>
-            Customer Name:
+                Customer Name:
             <input type="text" name="customerName" />
             </label>
     
             <label>
-            Location:
+                Location:
             <input type="text" name="location" />
             </label>
     
             <label>
-            Scope of Work:
+                Scope of Work:
             <textarea name="scopeOfWork" />
             </label>
     
             <label>
-            Repairs Made:
+                Repairs Made:
             <textarea name="repairsMade" />
             </label>
     
             <label>
-            Parts Used:
+                Parts Used:
             <textarea name="partsUsed" />
             </label>
     
             <label>
-            Mileage:
+                Mileage:
             <input type="number" name="mileage" />
             </label>
-    
-            <h3>Time Tracking</h3>
-    
-            <div>
-            <label>Shop:</label>
-            <button type="button">Clock In</button>
-            </div>
-    
-            <div>
-            <label>Travel:</label>
-            <button type="button">Clock In</button>
-            </div>
-    
-            <div>
-            <label>Site:</label>
-            <button type="button">Clock In</button>
-            </div>
+ 
         </form>
     );
   }
